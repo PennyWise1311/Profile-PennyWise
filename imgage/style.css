@@ -6,7 +6,7 @@ body, html {
   }
   
   body {
-    background: url(./bg01.jpg) no-repeat center center fixed;
+    background: url(./image/bg01.jpg) no-repeat center center fixed;
     background-size: cover;
   }
   
@@ -38,7 +38,7 @@ body, html {
   
   main.animated {
     opacity: 0;
-    filter: blur(10px);
+    filter: blur(5px);
     transition: opacity 2s ease-in-out, filter 2s ease-in-out;
   }
   
